@@ -1,0 +1,231 @@
+{
+  "Age": {
+    "type": "numeric",
+    "model_columns": [
+      "Age"
+    ]
+  },
+  "DailyRate": {
+    "type": "numeric",
+    "model_columns": [
+      "DailyRate"
+    ]
+  },
+  "DistanceFromHome": {
+    "type": "numeric",
+    "model_columns": [
+      "DistanceFromHome"
+    ]
+  },
+  "Education": {
+    "type": "numeric",
+    "model_columns": [
+      "Education"
+    ]
+  },
+  "EnvironmentSatisfaction": {
+    "type": "numeric",
+    "model_columns": [
+      "EnvironmentSatisfaction"
+    ]
+  },
+  "HourlyRate": {
+    "type": "numeric",
+    "model_columns": [
+      "HourlyRate"
+    ]
+  },
+  "JobInvolvement": {
+    "type": "numeric",
+    "model_columns": [
+      "JobInvolvement"
+    ]
+  },
+  "JobLevel": {
+    "type": "numeric",
+    "model_columns": [
+      "JobLevel"
+    ]
+  },
+  "JobSatisfaction": {
+    "type": "numeric",
+    "model_columns": [
+      "JobSatisfaction"
+    ]
+  },
+  "MonthlyIncome": {
+    "type": "numeric",
+    "model_columns": [
+      "MonthlyIncome"
+    ]
+  },
+  "MonthlyRate": {
+    "type": "numeric",
+    "model_columns": [
+      "MonthlyRate"
+    ]
+  },
+  "NumCompaniesWorked": {
+    "type": "numeric",
+    "model_columns": [
+      "NumCompaniesWorked"
+    ]
+  },
+  "PercentSalaryHike": {
+    "type": "numeric",
+    "model_columns": [
+      "PercentSalaryHike"
+    ]
+  },
+  "PerformanceRating": {
+    "type": "numeric",
+    "model_columns": [
+      "PerformanceRating"
+    ]
+  },
+  "RelationshipSatisfaction": {
+    "type": "numeric",
+    "model_columns": [
+      "RelationshipSatisfaction"
+    ]
+  },
+  "StockOptionLevel": {
+    "type": "numeric",
+    "model_columns": [
+      "StockOptionLevel"
+    ]
+  },
+  "TotalWorkingYears": {
+    "type": "numeric",
+    "model_columns": [
+      "TotalWorkingYears"
+    ]
+  },
+  "TrainingTimesLastYear": {
+    "type": "numeric",
+    "model_columns": [
+      "TrainingTimesLastYear"
+    ]
+  },
+  "WorkLifeBalance": {
+    "type": "numeric",
+    "model_columns": [
+      "WorkLifeBalance"
+    ]
+  },
+  "YearsAtCompany": {
+    "type": "numeric",
+    "model_columns": [
+      "YearsAtCompany"
+    ]
+  },
+  "YearsInCurrentRole": {
+    "type": "numeric",
+    "model_columns": [
+      "YearsInCurrentRole"
+    ]
+  },
+  "YearsSinceLastPromotion": {
+    "type": "numeric",
+    "model_columns": [
+      "YearsSinceLastPromotion"
+    ]
+  },
+  "YearsWithCurrManager": {
+    "type": "numeric",
+    "model_columns": [
+      "YearsWithCurrManager"
+    ]
+  },
+  "BusinessTravel": {
+    "type": "categorical",
+    "categories": [
+      "Travel_Frequently",
+      "Travel_Rarely"
+    ],
+    "model_columns": [
+      "BusinessTravel_Travel_Frequently",
+      "BusinessTravel_Travel_Rarely"
+    ]
+  },
+  "Department": {
+    "type": "categorical",
+    "categories": [
+      "Research & Development",
+      "Sales"
+    ],
+    "model_columns": [
+      "Department_Research & Development",
+      "Department_Sales"
+    ]
+  },
+  "EducationField": {
+    "type": "categorical",
+    "categories": [
+      "Life Sciences",
+      "Marketing",
+      "Medical",
+      "Other",
+      "Technical Degree"
+    ],
+    "model_columns": [
+      "EducationField_Life Sciences",
+      "EducationField_Marketing",
+      "EducationField_Medical",
+      "EducationField_Other",
+      "EducationField_Technical Degree"
+    ]
+  },
+  "Gender": {
+    "type": "categorical",
+    "categories": [
+      "Male"
+    ],
+    "model_columns": [
+      "Gender_Male"
+    ]
+  },
+  "JobRole": {
+    "type": "categorical",
+    "categories": [
+      "Human Resources",
+      "Laboratory Technician",
+      "Manager",
+      "Manufacturing Director",
+      "Research Director",
+      "Research Scientist",
+      "Sales Executive",
+      "Sales Representative"
+    ],
+    "model_columns": [
+      "JobRole_Human Resources",
+      "JobRole_Laboratory Technician",
+      "JobRole_Manager",
+      "JobRole_Manufacturing Director",
+      "JobRole_Research Director",
+      "JobRole_Research Scientist",
+      "JobRole_Sales Executive",
+      "JobRole_Sales Representative"
+    ]
+  },
+  "MaritalStatus": {
+    "type": "categorical",
+    "categories": [
+      "Married",
+      "Single"
+    ],
+    "model_columns": [
+      "MaritalStatus_Married",
+      "MaritalStatus_Single"
+    ]
+  },
+  "OverTime": {
+    "type": "categorical",
+    "categories": [
+      "Yes"
+    ],
+    "model_columns": [
+      "OverTime_Yes"
+    ]
+  }
+}
