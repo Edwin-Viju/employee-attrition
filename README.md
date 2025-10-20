@@ -14,3 +14,7 @@ Default classification thresholds (0.5) often fail to capture rare but critical 
 
 Outcome:
 The final XGBoost model, combined with scale_pos_weight and threshold tuning, provides actionable, reliable predictions. HR can focus retention efforts on employees most likely to leave, leading to cost savings, improved workforce stability, and informed strategic decision-making.
+
+The screenshot of the app is uploaded in the repository.
+
+Check out the app using this link : https://employee-attrition007.streamlit.app/
